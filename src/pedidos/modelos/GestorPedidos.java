@@ -34,7 +34,7 @@ public class GestorPedidos implements IGestorPedidos {
 
     }
 
-    public static GestorPedidos crearGestorPedidos() {
+    public static GestorPedidos crear() {
         if (gestor == null) {
             gestor = new GestorPedidos();
         }
